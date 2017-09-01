@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="dd6c550746a6a2f9520ba15b9dc3c79f0c66e1fcebac6f0324d7e7a920c05884.html">Tests</a>
+                > <a
+                    href="e7d5a7ad48babaa7e0e64b99d34e2d0fd3865784511db569a1a6cf9bf82bc0e4.html">Test01create new board </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-08-2017 15:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Tests</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test01create New Board
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e5887ddf378e1b68a3e433732e821dbcfa86e956665f567dfd3ada971f695ad3.png" title="Create new board: testBoard" width="960"/>
+                <img src="e5887ddf378e1b68a3e433732e821dbcfa86e956665f567dfd3ada971f695ad3.png" title="Create new list: testList, 59a017f1567820022ffd0fb6" width="960"/>
+                <img src="e5887ddf378e1b68a3e433732e821dbcfa86e956665f567dfd3ada971f695ad3.png" title="Create new card: testCard, 59a017f21d8da1c39e3c6998" width="960"/>
+                <img src="2170e8ae23d57b6e6525879da98bdee0586870963796d5266a851f4abdddd8db.png" title="Navigate to login page" width="960"/>
+                <img src="626fd7af7acb016d35e2b25e9a6a5cf6bb60d6e15bab01aaf1cfaf8bb8a63fd9.png" title="Login on trello: loredana.moga@evozon.com, cls63amg" width="960"/>
+                <img src="0923430a656d312bdf67aa296dc29516fb6d4ad0eab799a27b0e4ac5d2f482d1.png" title="Open created board" width="960"/>
+                <img src="9169851f5066bce27b18339934c1cf52d7e27495ab3181d4aeeada42b0665439.png" title="Open created board" width="960"/>
+                <img src="8a3a50a03f822669c53aede370db84c21f7beaaf3f58695d9c717a58fac784ee.png" title="Select and drag and drop card: testCard" width="960"/>
+                <img src="b518195d05cdeffd5ac7356944a6f34f5ee6f99ab8389bc9e545a3a0ebacc620.png" title="Select and drag and drop card: testCard" width="960"/>
+                <img src="c37096f80d084db463a7ed32b932a0b6bc54f6f70644beb445167569a2d4e0d3.png" title="Select specific card: testCard" width="960"/>
+                <img src="88eb0bf7d0b3ea4804fb7ab1b13c639718b558c22d5b168414e675c4c7b0b1ba.png" title="Select specific card: testCard" width="960"/>
+                <img src="8d361ef988fda1469d45683a3f05556c87a4688a4f6ed6e0eae9e6d858084ecf.png" title="Click on attachment button" width="960"/>
+                <img src="5e375b2a8f197ba398874dfe1f8f1ea05c4b3bb4b89b8d9e920e1ccb8b883726.png" title="Attach file from computer: E:/Attachment/post.txt" width="960"/>
+                <img src="8d361ef988fda1469d45683a3f05556c87a4688a4f6ed6e0eae9e6d858084ecf.png" title="Attach file from computer: E:/Attachment/post.txt" width="960"/>
+                <img src="0d2da679c9d5ca40787d534e06aed1551ccb728356b8621983c8a9b0ce76833f.png" title="Download file to computer" width="960"/>
+                <img src="79e5d4259e28de10395d54b3bb3997e3f0761c74fe23bc98d429336d68eeae6a.png" title="Download file to computer: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>

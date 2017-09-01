@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.tests.Tests" skipped="0" tests="1" time="0.0" timestamp="2017-08-22T16:22:52.443+03:00[Europe/Athens]"><testcase classname="com.tests.Tests" name="Initialisation"><failure message="The page object class com.pages.CreatedBoardPage looks dodgy:&#10;Failed to instantiate page (java.lang.NullPointerException)" type="net.thucydides.core.pages.WrongPageError">The page object class com.pages.CreatedBoardPage looks dodgy:
+Failed to instantiate page (java.lang.NullPointerException)</failure><system-err>The page object class com.pages.CreatedBoardPage looks dodgy:
+Failed to instantiate page (java.lang.NullPointerException)&#13;
+</system-err></testcase></testsuite>
